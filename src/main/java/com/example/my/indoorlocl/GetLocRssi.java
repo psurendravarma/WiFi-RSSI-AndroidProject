@@ -97,8 +97,8 @@ public class GetLocRssi extends AppCompatActivity {
 
      try{
 
-            URL link = new URL("IPV4:5000/?names="+names);
-            System.out.println("IPV4:5000/?names="+names);
+            URL link = new URL("IPV4:port/?names="+names);
+            System.out.println("IPV4:port/?names="+names);
             URLConnection conn = link.openConnection();
             conn.setDoOutput(true);
 
