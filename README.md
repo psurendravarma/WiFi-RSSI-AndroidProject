@@ -1,5 +1,5 @@
 # WiFi-RSSI-AndroidProject
-Android implementation to read RSSI values of five access points and transfer them to server periodically.
+Android implementation to scan RSSI values of five access points and transfer them to server periodically.
 
 The entire src folder of the android project is uploaded here. The following changes need to be made before running the application:
 
